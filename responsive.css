@@ -1,0 +1,127 @@
+#check{
+    display: none;
+}
+.checkbtn{
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 20px;
+    padding: 4px 5px 1px 5px;
+    display: none;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+}
+
+
+@media(max-width:576px){
+    .navLinks{
+        position: absolute;
+        font-size: 20px;
+        margin-right: 10px;
+        display: none;
+        top: 120px;
+        flex-direction: column;
+        height: 300px;
+        width: 100%;
+    }
+
+    .logo{
+        margin: 25px;
+        height: 70px;
+    }
+    .logo img{
+        height: 60%;
+        margin-top: 15px;
+    }
+    .navLinks li{
+        height: 24%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #6c795d;
+    }
+    .navLinks li:hover{
+        background-color:#ffffff;
+        
+    }
+    .navLinks li a:hover{
+
+        color: #6c6c6c;
+        
+    }
+
+    .checkbtn{
+        display: block;
+    }
+    #check:checked~.navLinks{
+        display: flex;
+    }
+    .heroContainer{
+        padding: 0;
+        height: 50vh;
+        padding-top: 50px;
+    }
+    .heroSection .content p{
+        font-size: 20px;
+    }
+    .heroSection .content h1{
+        font-size: 20px;
+    }
+
+    .heroImage{
+        overflow: hidden;
+    }
+    .heroImage img{
+        width: 100%;
+        margin-top: 70px;
+    }
+    .paraContainer{
+        padding: 30px;
+        width: 100%;
+        flex-direction: column;
+    
+    }
+    .para{
+        width: 100%;
+        border-right: none;
+    }
+    .quote{
+        width: 100%;
+    }
+    .box{
+        border-right: none;
+    }
+    .contact{
+        border-right: none;
+    }
+    .footContainer{
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 0;
+        height: 10vh;
+    }
+    .icons{
+        margin-left: 0;
+        display: flex;
+        justify-content: space-around;
+        width: 20%;
+
+    }
+    .copy{
+        margin-right: 0;
+        padding: 10px;
+    }
+    .cardContainer{
+        padding: 20px 20px;
+        width: 100%;
+    }
+    .boxContainer{
+        padding: 20px 20px;
+    }
+    .chooseHead{
+        padding:20px;
+
+    }
+    
+    
+}
